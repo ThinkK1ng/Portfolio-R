@@ -1,14 +1,14 @@
 import React from "react";
-import twitchPop from '../images/Gaming App Project.png';
-import cassetteTape from '../images/The Cassette Tape.png';
-import Rappor from '../images/Rappor.png';
+// import twitchPop from '../images/Gaming App Project.png';
+// import cassetteTape from '../images/The Cassette Tape.png';
+// import Rappor from '../images/Rappor.png';
 import Project from '../components/ProjectsContainer';
 import { Heading } from "@chakra-ui/react";
 
 const portfolio = [
     {
         id: 1,
-        image: {twitchPop},
+        image: "../images/Gaming App Project.png",
         name: "Twitch Popularity Tracker",
         alt: "Twitch Popularity Tracker",
         description: "",
@@ -17,7 +17,7 @@ const portfolio = [
       },
       {
         id: 2,
-        image: {cassetteTape},
+        image: '../images/The Cassette Tape.png',
         name: "The Cassette Tape",
         alt: "The Cassette Tape",
         description: "",
@@ -26,7 +26,7 @@ const portfolio = [
       },
       {
         id: 3,
-        image: {Rappor},
+        image: '../images/Rappor.png',
         name: "Rappor",
         alt: "Rappor",
         description: "",

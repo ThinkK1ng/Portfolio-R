@@ -1,4 +1,4 @@
-import { Card, CardBody, CardHeader, CardFooter, Heading, Button } from "@chakra-ui/react";
+import { Card, CardBody, CardHeader, CardFooter, Heading, Button, Img } from "@chakra-ui/react";
 import React from "react";
 
 export default function ProjectsContainer(props) {
@@ -8,7 +8,7 @@ export default function ProjectsContainer(props) {
             return (
                 <Card key={item.id}>
                     <CardHeader>
-                        <img src={item.image} alt={item.alt} />
+                        <Img src={item.image} alt={item.alt} />
                     </CardHeader>
                     <CardBody>
                         <Heading>{item.name}</Heading>

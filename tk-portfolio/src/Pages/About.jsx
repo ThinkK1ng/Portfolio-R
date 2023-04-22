@@ -5,7 +5,7 @@ import pfp from "../images/Thinking-final1.png";
 export default function About() {
     return (
         <Box>
-            <Image href={pfp} alt="Avatar" alignItems="center" />
+            <Image src={pfp} alt="Avatar" mx={500} boxSize={200}/>
             <Heading align="center" mb={10}>About Me</Heading>
             <Text mx={10}>Hello! My name is <strong>Clarence Givens</strong> and I'm an aspiring Full Stack web developer. I first thought to get into coding when I was in
           high school. I'd rewatched Gundam Seed and thought it was kinda cool
