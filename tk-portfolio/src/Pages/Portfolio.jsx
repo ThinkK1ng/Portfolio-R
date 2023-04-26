@@ -8,7 +8,7 @@ import { Heading } from "@chakra-ui/react";
 const portfolio = [
     {
         id: 1,
-        image: "../images/Gaming App Project.png",
+        image: "https://imgur.com/Tz8gLNv",
         name: "Twitch Popularity Tracker",
         alt: "Twitch Popularity Tracker",
         description: "",
@@ -17,7 +17,7 @@ const portfolio = [
       },
       {
         id: 2,
-        image: '../images/The Cassette Tape.png',
+        image: 'https://imgur.com/RCMgbEN',
         name: "The Cassette Tape",
         alt: "The Cassette Tape",
         description: "",
@@ -26,7 +26,7 @@ const portfolio = [
       },
       {
         id: 3,
-        image: '../images/Rappor.png',
+        image: 'https://imgur.com/NAQgCru',
         name: "Rappor",
         alt: "Rappor",
         description: "",
